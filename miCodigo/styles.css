@@ -140,3 +140,81 @@ div h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
+.message-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.message-text {
+  font-family: 'Nunito';
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#nextButton {
+  background-color: cornflowerblue;
+}
+
+.itinerary-day {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.day-title {
+  font-family: 'Nunito';
+  font-size: 28px;
+  color: #333;
+}
+
+.place-title {
+  font-family: 'Nunito';
+  font-size: 24px;
+  color: #113c66;
+  margin-top: 10px;
+}
+
+.day-description {
+  font-family: 'Nunito';
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.itinerary-day {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.day-title {
+  font-family: 'Nunito';
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.day-description {
+  font-family: 'Nunito';
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.day-image {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 8px;
+  object-fit:cover;
+}
+
+
+
