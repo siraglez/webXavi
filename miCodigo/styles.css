@@ -216,5 +216,41 @@ div h1 {
   object-fit:cover;
 }
 
+.info-section {
+  margin: 20px auto;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
 
+.section-title {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333;
+}
 
+.section-description {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.section-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+
+.map-container {
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.button-link {
+  text-decoration: none;
+}
