@@ -23,7 +23,19 @@
 <!-- Sábado -->
 <div class="itinerary-day">
   <h2 class="day-title">Sábado</h2>
-  <h2 class="place-title">La Alhambra</h2>
+
+  <!-- La Alhambra -->
+  <h2 class="place-title">
+    La Alhambra
+    <button class="info-button" onclick="togglePopup('alhambra-popup')">⋮</button>
+  </h2>
+  <div class="popup" id="alhambra-popup">
+    <div class="popup-content">
+      <span class="close-button" onclick="togglePopup('alhambra-popup')">¬times;</span>
+      <h3>Información sobre La Alhambra</h3>
+      <p>(Agregar info de La Alhambra)</p>
+    </div>
+  </div>
   <p class="day-description">
     El sábado empezmos el día prontito, podemos buscar alguna cafetería para desayunar y luego nos iremos a ver La Alhambra a las 9:30.
   </p>
