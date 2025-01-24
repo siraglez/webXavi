@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="/Users/siragonzalez-madrono/Library/CloudStorage/OneDrive-Personal/Documentos Sira/webXavi/icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
   <title>Plaza Nueva</title>
 </head>
 <body>
+  <h1>Información sobre la Plaza Nueva</h1>
+  <p style="font-size: 1.2em; line-height: 1.6;">
+    - A oesar de su nombre, esta es la plaza más antigua de Granada. Es un buen lugar para terminar el día y sentarse en una terraza a tomar algo.
+    <br> - A su alrededor se elevan varios edificios históricos, como la Real Chancillería o la Casa de los Pisa.
+    <br> - Está claro que esta plaza ha sido y sigue siendo el verdadero centro de la vida granadina.
+  </p>
 
+  <div class="container">
+    <button class="btn" id="nextButton" onclick="nextPage()">Siguiente</button>
+  </div>
+
+  <script>
+    function nextPage() {
+      window.location.href = "albaicin.html";
+    }
+  </script>
 </body>
 </html>
